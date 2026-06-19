@@ -14,8 +14,8 @@ app = FastAPI(title="E-Commerce System API")
 # Configure CORS so our React frontend can interact with the backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # For production, restrict this to the frontend URL
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
