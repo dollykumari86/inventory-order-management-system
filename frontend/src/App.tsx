@@ -5,8 +5,7 @@ import {
   FileText, 
   Plus, 
   AlertCircle, 
-  CheckCircle,
-  Database
+  CheckCircle
 } from 'lucide-react';
 import type { Product, Customer, Order } from './types';
 
